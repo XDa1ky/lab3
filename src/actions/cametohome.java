@@ -1,14 +1,19 @@
 package actions;
 
-import person.forwhom;
-import place.placeobj;
+import base.dosmth;
+import base.forwhom;
+import person.placeobj;
 
 public class cametohome implements dosmth {
 
     @Override
-    public String phrase(String string) {
-        string = "вернулся с";
-        return forwhom.raskol.getName() + string + placeobj.traktir.getName() +  "домой";
+    public String phrase() {
+        return "вернулся с " + placeobj.traktir.getName() +  " домой";
+    }
+
+    @Override
+    public String personname() {
+        return forwhom.raskol.getName(); 
     }
     
 }

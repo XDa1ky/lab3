@@ -1,4 +1,4 @@
-package place;
+package person;
 
 
 public abstract class place {

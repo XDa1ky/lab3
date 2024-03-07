@@ -1,13 +1,18 @@
 package actions.dialog;
 
-import actions.dosmth;
+import base.dosmth;
+import base.forwhom;
 
 public class whatcandobaba implements dosmth {
 
     @Override
-    public String phrase(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'phrase'");
+    public String phrase() {
+        return "Может сразу пять тысяч выдать. Свою глуповатую сестру Лизавету она бьет поминутно ";
     }
-    
+
+    @Override
+    public String personname() {
+        return forwhom.Grandma.getName();
+    }
+
 }

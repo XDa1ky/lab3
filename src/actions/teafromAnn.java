@@ -1,13 +1,18 @@
 package actions;
 
-import person.forwhom;
+import base.dosmth;
+import base.forwhom;
 
 public class teafromAnn implements dosmth  {
 
     @Override
-    public String phrase(String string) {
-        string = "принесла чай и суп для";
-        return forwhom.anastasia.getName() + string + forwhom.raskol.getName();
+    public String phrase() {
+        return  "принесла чай и суп для " + forwhom.raskol.getName();
+    }
+
+    @Override
+    public String personname() {
+        return forwhom.anastasia.getName();
     }
     
 }

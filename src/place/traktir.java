@@ -2,6 +2,9 @@ package place;
 
 import java.util.*;
 
+import person.place;
+import person.placeobj;
+
 public class traktir extends place {
 
     public traktir() {

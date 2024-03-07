@@ -1,4 +1,4 @@
-package person;
+package base;
 
 public enum forwhom {
     Officer("офицер"), raskol("Раскольников"), Grandma("бабка"),anastasia("Настасья");

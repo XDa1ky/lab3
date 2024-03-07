@@ -2,12 +2,14 @@ package actions;
 
 import base.dosmth;
 import base.forwhom;
+import person.place;
+import person.placeobj;
 
-public class preparestokill implements dosmth{
+public class end implements dosmth{
 
     @Override
     public String phrase() {
-        return "проснувшись сделал петлю и пришил её к одежде";
+        return "вышел на " + placeobj.street.getName();
     }
 
     @Override

@@ -1,5 +1,7 @@
 package person;
 
+import base.person;
+
 public class grandma extends person {
 
     public grandma(String name) {
@@ -7,6 +9,7 @@ public class grandma extends person {
     }
 
     @Override
+    protected
     String Gender() {
         return "woman";
     }

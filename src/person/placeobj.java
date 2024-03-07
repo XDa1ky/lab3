@@ -1,4 +1,4 @@
-package place;
+package person;
 
 public enum placeobj {
     traktir("трактир"), street("улица");

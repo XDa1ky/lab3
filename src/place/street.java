@@ -2,8 +2,8 @@ package place;
 
 import java.util.*;
 
+import base.placeobj;
 import person.place;
-import person.placeobj;
 
 public class street extends place {
 

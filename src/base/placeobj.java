@@ -1,7 +1,7 @@
-package person;
+package base;
 
 public enum placeobj {
-    traktir("трактир"), street("улица");
+    traktir("трактир"), street("улица"),home("дом");
     private String name;
     placeobj (String name){
         this.name = name;

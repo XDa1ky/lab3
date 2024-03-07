@@ -14,8 +14,6 @@ import person.anastasia;
 import person.grandma;
 import person.officer;
 import person.raskol;
-import place.street;
-import place.traktir;
 
 public class App {
     public static void main(String[] args) {
@@ -23,8 +21,6 @@ public class App {
         raskol raskol = new raskol(forwhom.raskol.getName());
         grandma grandma = new grandma(forwhom.Grandma.getName());
         anastasia anastasia = new anastasia(forwhom.anastasia.getName());
-        traktir traktir = new traktir();
-        street street = new street();
         //1
         whatcandobaba whatcandobaba = new whatcandobaba();
         raskolidea raskolidea = new raskolidea();

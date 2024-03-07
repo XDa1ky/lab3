@@ -2,7 +2,7 @@ package person;
 
 
 public abstract class place {
-    protected place place = null;
+    protected place place;
 
     public abstract String getName();
 

@@ -2,8 +2,7 @@ package actions;
 
 import base.dosmth;
 import base.forwhom;
-import person.place;
-import person.placeobj;
+import base.placeobj;
 
 public class end implements dosmth{
 

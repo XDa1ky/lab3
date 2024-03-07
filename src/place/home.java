@@ -5,14 +5,14 @@ import java.util.*;
 import base.placeobj;
 import person.place;
 
-public class traktir extends place {
+public class home extends place {
 
-    public traktir() {
+    public home() {
     }
 
     @Override
     public String getName() {
-        return placeobj.traktir.getName();
+        return placeobj.home.getName();
     }
 
     @Override

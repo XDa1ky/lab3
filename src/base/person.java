@@ -19,13 +19,23 @@ public abstract class person {
         return Objects.hash(Name);
     }
 
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        person that = (person) o;
+        return Objects.equals(Name, that.Name);
+    }
+
     public void doAction(dosmth a, String what) {
         String s = a.phrase();
-         if (what!=""){
-         System.out.println(this.Name+ " сказал " + what+"у"+" " + s + " " );}
-    
-     else{
-        System.out.println(this.Name + " " + s + " " + what);
+        if (what != "") {
+            System.out.println(this.Name + " сказал " + what + "у" + " " + s + " ");
+        }
+
+        else {
+            System.out.println(this.Name + " " + s + " " + what);
+        }
     }
-}
 }

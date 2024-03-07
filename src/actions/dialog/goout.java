@@ -2,7 +2,7 @@ package actions.dialog;
 
 import base.dosmth;
 import base.forwhom;
-import person.placeobj;
+import base.placeobj;
 
 public class goout implements dosmth {
 
